@@ -1,0 +1,54 @@
+<!-- BMI calculator -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>BMI calculator</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>BMI calculator</h1>
+      <div class="contact-clean">
+          <form method="post" id="formOne">
+            <div>
+              <p>Feet</p>
+              <input type="number" id="feetInput" class="col-4"/>
+            </div>
+            <div>
+                <p>Inches</p>
+                <input type="number" id="inchesInput"  class="col-4"/>
+              </div>
+              <div>
+                  <p>Weight (in pounds)</p>
+                <input type="number" id="weightInput" class="col-4"/>
+                </div>
+                <button id="calculate" class=" btn-primary" type="button">Calculate</button>
+          </form>
+          <p id="result"></p>
+          <p id="reference">
+              Severely underweight = <16 <br>
+              Underweight = 16 - 18.4<br>
+              Normal (healthy weight) = 18.5 - 24.9<br>
+              Overweight = 25 - 29.9<br>
+              Moderately Obese = 30 - 40<br>
+              Severily Obese = >40<br>
+          </p>
+          <a href="#" class="recalculate hidden" style="color: #000;">Calculate again</a>
+      </div>
+      <p id="credits">By <a href="http://ccdevnyc.com/" target="_blank" style="color: white;">CCDEVNYC</p>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

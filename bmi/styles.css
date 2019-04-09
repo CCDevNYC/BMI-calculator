@@ -1,0 +1,55 @@
+
+*{
+  color: #000 ;
+}
+#wrapper{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+}
+#reference{
+  font-size: 8px;
+  display: none;
+}
+#calculate{
+  background-color: black;
+  border: none;
+  border-radius: none !important;
+}
+input:link{
+box-shadow: none;
+}
+h1{
+  margin: 10px 0 10px 0;
+  display: inline-block;
+  border-bottom: 4px solid black;
+}
+/* form{
+  margin-left: 20px;
+} */
+form div{
+  width: auto;
+  /* float: left; */
+}
+form p{
+  /* float: left; */
+  margin: 10px 0 0 0;
+}
+#calculate{
+  margin: 15px 0;
+}
+.dispBlock{
+  display: block;
+}
+a.hidden{
+  display: none;
+}
+#credits{
+  font-size: 8px;
+}
+#credits a{
+  color: #000000 !important;
+  text-decoration: underline;
+}
